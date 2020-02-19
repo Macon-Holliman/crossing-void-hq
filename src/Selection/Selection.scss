@@ -1,0 +1,141 @@
+
+.character {
+  grid-area: character;
+  justify-self: stretch;
+  padding: 33% 0;
+  border: 1px solid #282b2c;
+}
+
+.item-one {
+  grid-area: item1;
+  justify-self: stretch;
+  background-color: #f8963f;
+  padding: 25% 0;
+  border: 1px solid #282b2c;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); //Set to appear on hover
+}
+
+.item-two {
+  grid-area: item2;
+  justify-self: stretch;
+  background-color: #f8963f;
+  padding: 25% 0;
+  border: 1px solid #282b2c;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); //Set to appear on hover
+}
+
+.item-three {
+  grid-area: item3;
+  justify-self: stretch;
+  background-color: #f8963f;
+  padding: 25% 0;
+  border: 1px solid #282b2c;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); //Set to appear on hover
+}
+
+.item-four {
+  grid-area: item4;
+  justify-self: stretch;
+  background-color: #f8963f;
+  padding: 25% 0;
+  border: 1px solid #282b2c;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); //Set to appear on hover
+}
+
+.rarity {
+  grid-area: rarity;
+  justify-self: stretch;
+  padding: 25% 0;
+  border: 1px solid #282b2c;
+}
+
+.level {
+  grid-area: level;
+  justify-self: stretch;
+  padding: 25% 0;
+  border: 1px solid #282b2c;
+}
+
+.talent-one {
+  grid-area: talent1;
+  justify-self: stretch;
+  padding: 25% 0;
+  border: 1px solid #282b2c;
+}
+
+.talent-two {
+  grid-area: talent2;
+  justify-self: stretch;
+  padding: 25% 0;
+  border: 1px solid #282b2c;
+}
+
+.talent-three {
+  grid-area: talent3;
+  justify-self: stretch;
+  padding: 25% 0;
+  border: 1px solid #282b2c;
+}
+
+.talent-four {
+  grid-area: talent4;
+  justify-self: stretch;
+  padding: 25% 0;
+  border: 1px solid #282b2c;
+}
+
+.impWep {
+  grid-area: impwep;
+  justify-self: stretch;
+  padding: 25% 0;
+  border: 1px solid #282b2c;
+}
+
+.stars {
+  grid-area: stars;
+  justify-self: stretch;
+  padding: 25% 0;
+  border: 1px solid #282b2c;
+}
+
+.selection {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px;
+  grid-template-areas: 
+    "character character rarity level"
+    "character character impwep stars"
+    "item1 item2 item3 item4"
+    "talent1 talent2 talent3 talent4";
+}
+
+/*
+
+* {box-sizing: border-box;}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+.selection {
+  width: 350px;
+  height: 300px;
+  border: 5px solid rgb(111,41,97);
+  border-radius: .5em;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 5px;
+  align-content: space-between;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.selection > div {
+  padding: 10px;
+  background-color: rgba(111,41,97,.3);
+  border: 2px solid rgba(111,41,97,.5);
+}
+*/

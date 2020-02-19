@@ -1,0 +1,566 @@
+[
+   {
+      "Rarity": "S",
+      "Level": "60",
+      "Stars": 6,
+      "ItemSet": [
+         {
+            "Set": "Alternative Fashion",
+            "Count": 4
+         },
+         {
+            "Set": "Assemble! Gekota",
+            "Count": 0
+         },
+         {
+            "Set": "Poser",
+            "Count": 0
+         },
+         {
+            "Set": "Shizu-chan's Weapon",
+            "Count": 0
+         }
+      ],
+      "Items": [
+         {
+            "Item": "Spiked Bat",
+            "Level": "20",
+            "Stats": [
+               {
+                  "Tier": 5,
+                  "Stat": "Attack"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Attack"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Crit DMG"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Crit DMG"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Crit Rate"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Crit Rate"
+               }
+            ],
+            "Image": "https://i.imgur.com/3rEgL9e.png"
+         },
+         {
+            "Item": "Joke Headband",
+            "Level": "20",
+            "Stats": [
+               {
+                  "Tier": 5,
+                  "Stat": "Attack"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Attack"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Crit DMG"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Crit DMG"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Crit Rate"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Crit Rate"
+               }
+            ],
+            "Image": "https://i.imgur.com/q0MBHRS.png"
+         },
+         {
+            "Item": "Yoroshiku Windbreaker",
+            "Level": "20",
+            "Stats": [
+               {
+                  "Tier": 5,
+                  "Stat": "Attack"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Attack"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Crit DMG"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Crit DMG"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Crit Rate"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Crit Rate"
+               }
+            ],
+            "Image": "https://i.imgur.com/TAgrjhO.png"
+         },
+         {
+            "Item": "Fashionable Crew Cut",
+            "Level": "20",
+            "Stats": [
+               {
+                  "Tier": 5,
+                  "Stat": "Attack"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Attack"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Crit DMG"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Crit DMG"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Crit Rate"
+               },
+               {
+                  "Tier": 5,
+                  "Stat": "Crit Rate"
+               }
+            ],
+            "Image": "https://i.imgur.com/YA8Uxn0.png"
+         }
+      ],
+      "FinalDmg": 4,
+      "Talents": [
+         {
+            "Talent": "Ardor",
+            "Used": true,
+            "Level": "50",
+            "Boost": 190
+         },
+         {
+            "Talent": "Valor",
+            "Used": true,
+            "Level": "50",
+            "Boost": 31.08
+         },
+         {
+            "Talent": "Strength",
+            "Used": true,
+            "Level": "50",
+            "Boost": 5.27
+         },
+         {
+            "Talent": "Aggression",
+            "Used": true,
+            "Level": "50",
+            "Boost": 10.53
+         },
+         {
+            "Talent": "Agility",
+            "Used": false,
+            "Level": 5
+         },
+         {
+            "Talent": "Tenacity",
+            "Used": false,
+            "Level": 5
+         },
+         {
+            "Talent": "Sagacity",
+            "Used": false,
+            "Level": 5
+         },
+         {
+            "Talent": "Fortitude",
+            "Used": false,
+            "Level": 5
+         },
+         {
+            "Talent": "Vitality",
+            "Used": false,
+            "Level": 5
+         },
+         {
+            "Talent": "Vigor",
+            "Used": false,
+            "Level": 5
+         }
+      ],
+      "Abilities": [
+         {
+            "Skill": "ATK Ability",
+            "Used": true,
+            "Level": "25",
+            "Boost": 24.999992
+         },
+         {
+            "Skill": "DEF Ability",
+            "Used": true,
+            "Level": "25",
+            "Boost": 24.999992
+         },
+         {
+            "Skill": "Survivability",
+            "Used": true,
+            "Level": "25",
+            "Boost": 24.999992
+         },
+         {
+            "Skill": "Burst Ability",
+            "Used": true,
+            "Level": "25",
+            "Boost": 5.008
+         }
+      ],
+      "ImpWeapon": {
+         "Name": "",
+         "Upgrade": 0,
+         "Phase": 0,
+         "Attack": 750,
+         "HP": 2000,
+         "PDEF": 0,
+         "ADEF": 0,
+         "CC": "4",
+         "CD": "5",
+         "AttackTier": 0,
+         "HPTier": 0,
+         "PDEFTier": 0,
+         "ADEFTier": 0,
+         "CCTier": 0,
+         "CDTier": 0
+      }
+   },
+   {
+      "Name": "Ako",
+      "Attack": 4284.509,
+      "HP": 11863.661,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 1146.5809,
+      "PDEF": 1136.7026
+   },
+   {
+      "Name": "Alicia",
+      "Attack": 4711.1113,
+      "HP": 10959.224,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 879.47266,
+      "PDEF": 923.4639
+   },
+   {
+      "Name": "Asuna",
+      "Attack": 5318.0933,
+      "HP": 9873.083,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 653.2288,
+      "PDEF": 657.8574
+   },
+   {
+      "Name": "Boogiepop",
+      "Attack": 5401.184,
+      "HP": 9794.994,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 664.93976,
+      "PDEF": 675.20874
+   },
+   {
+      "Name": "Celty",
+      "Attack": 5003.8574,
+      "HP": 10514.663,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 806.0975,
+      "PDEF": 813.7554
+   },
+   {
+      "Name": "Dokuro-chan",
+      "Attack": 4745.442,
+      "HP": 11108.226,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 961.74927,
+      "PDEF": 949.9298
+   },
+   {
+      "Name": "Enju",
+      "Attack": 4976.478,
+      "HP": 10515.144,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 873.2776,
+      "PDEF": 881.9801
+   },
+   {
+      "Name": "Erio",
+      "Attack": 4758.716,
+      "HP": 11112.176,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 962.70746,
+      "PDEF": 964.5985
+   },
+   {
+      "Name": "Frolaytia",
+      "Attack": 4755.9814,
+      "HP": 11111.062,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 945.7378,
+      "PDEF": 965.49426
+   },
+   {
+      "Name": "Haruyuki",
+      "Attack": 4970.4233,
+      "HP": 10507.87,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 848.2947,
+      "PDEF": 858.56366
+   },
+   {
+      "Name": "Havia",
+      "Attack": 4759.495,
+      "HP": 10904.526,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 909.07605,
+      "PDEF": 903.82825
+   },
+   {
+      "Name": "Innocent Charm",
+      "Attack": 4804.4595,
+      "HP": 10807.02,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 901.8791,
+      "PDEF": 912.148
+   },
+   {
+      "Name": "Kino",
+      "Attack": 5140.3247,
+      "HP": 10136.873,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 744.83215,
+      "PDEF": 756.9495
+   },
+   {
+      "Name": "Kirino",
+      "Attack": 4746.2295,
+      "HP": 10926.155,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 886.84045,
+      "PDEF": 886.84045
+   },
+   {
+      "Name": "Kirito",
+      "Attack": 4538.8657,
+      "HP": 11271.743,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 999.625,
+      "PDEF": 1001.11115
+   },
+   {
+      "Name": "Kouko",
+      "Attack": 4980.8657,
+      "HP": 10432,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 833,
+      "PDEF": 805
+   },
+   {
+      "Name": "Kuroko",
+      "Attack": 4962.1533,
+      "HP": 10508.668,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 851.74567,
+      "PDEF": 841.47675
+   },
+   {
+      "Name": "Kuroneko",
+      "Attack": 5099.9966,
+      "HP": 10255.455,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 773.85254,
+      "PDEF": 763.9743
+   },
+   {
+      "Name": "Kuroyukihime",
+      "Attack": 5469.2725,
+      "HP": 9757.595,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 640.9074,
+      "PDEF": 661.365
+   },
+   {
+      "Name": "Leafa",
+      "Attack": 4745.877,
+      "HP": 10874.73,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 908.6906,
+      "PDEF": 886.66656
+   },
+   {
+      "Name": "Llenn",
+      "Attack": 5409.652,
+      "HP": 9768.506,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 648.25555,
+      "PDEF": 660.0107
+   },
+   {
+      "Name": "Mashiro",
+      "Attack": 4745.7056,
+      "HP": 10855.424,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 921.9134,
+      "PDEF": 919.92017
+   },
+   {
+      "Name": "Mikoto",
+      "Attack": 5172.0713,
+      "HP": 10155.036,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 757.09247,
+      "PDEF": 757.09247
+   },
+   {
+      "Name": "Miyuki",
+      "Attack": 5430.833,
+      "HP": 9785.931,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 653.6125,
+      "PDEF": 657.3625
+   },
+   {
+      "Name": "Rentaro",
+      "Attack": 4446.994,
+      "HP": 11527.807,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 1026.955,
+      "PDEF": 1050.8274
+   },
+   {
+      "Name": "Rusian",
+      "Attack": 4753.8667,
+      "HP": 11155.171,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 947.2318,
+      "PDEF": 966.98834
+   },
+   {
+      "Name": "Ryuuji",
+      "Attack": 4754.6343,
+      "HP": 10921.988,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 912.5387,
+      "PDEF": 912.148
+   },
+   {
+      "Name": "Selvaria",
+      "Attack": 4478.6514,
+      "HP": 11547.363,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 1034.2568,
+      "PDEF": 1063.6827
+   },
+   {
+      "Name": "Shizuo",
+      "Attack": 4479.819,
+      "HP": 11535.492,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 1027.7279,
+      "PDEF": 1015.97284
+   },
+   {
+      "Name": "Touma",
+      "Attack": 4998.6704,
+      "HP": 10497.018,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 812.82715,
+      "PDEF": 789.31696
+   },
+   {
+      "Name": "Uiharu",
+      "Attack": 4470.7485,
+      "HP": 11563.77,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 1063.4744,
+      "PDEF": 1043.0754
+   },
+   {
+      "Name": "Wilhelmina",
+      "Attack": 4758.981,
+      "HP": 10841.305,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 913.36633,
+      "PDEF": 904.6639
+   },
+   {
+      "Name": "Yukina",
+      "Attack": 5043.894,
+      "HP": 10492.799,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 795.9239,
+      "PDEF": 792.1739
+   },
+   {
+      "Name": "Yuuki",
+      "Attack": 5181.355,
+      "HP": 10104.723,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 751.1125,
+      "PDEF": 754.8625
+   },
+   {
+      "Name": "Zero",
+      "Attack": 5450.3213,
+      "HP": 9704.166,
+      "CD": 44.73,
+      "CC": 32.878,
+      "ADEF": 700.2192,
+      "PDEF": 658.0844
+   }
+]

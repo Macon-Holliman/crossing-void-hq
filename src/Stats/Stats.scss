@@ -1,0 +1,1291 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.middle-stat-name
+{
+  margin-left: 18%
+}
+
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+
+.text{
+  font-family: 'Teko', sans-serif;
+  line-height: 1;
+  letter-spacing: .5px;
+  //font-size: 1em;
+  font-size: 1.3em;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.stats-text{
+  font-family: 'Teko', sans-serif;
+  line-height: 1;
+  letter-spacing: .5px;
+  font-size: 1.3em;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 5%;
+}
+
+.character-name{
+  text-align: center;
+  /* margin-bottom: 05px; */
+  font-size: 1.3em;
+  word-wrap: break-word;
+  max-width: 100%;
+  margin-top: 7px;
+  word-break: break-all;
+  float: right;
+  margin-right: 5px;
+}
+
+.stats-inner-text{
+  font-family: 'Teko', sans-serif;
+  line-height: 1;
+  letter-spacing: 1.2px;
+  font-size: 1.25em; 
+  font-size: 2vw;
+  font-size: 130%;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 5%;
+
+}
+
+
+.stats {
+  border-radius: 10px;
+  border: 3px solid #afebffd1;
+  //background-image: url("https://i.imgur.com/nvbQW6C.png");
+  background-image: url("https://i.imgur.com/RlfA0q6.png");
+  
+  background-color: rgb(94, 151, 170);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 600px;
+  background-size: cover;
+  justify-content: center;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 200px;
+  grid-template-rows: 100px 60px 100px 100px 100px;
+  grid-template-areas: 
+    "character character rarity level attack"
+    "character character stars stars attack"
+    "item1 item2 item3 item4 talents"
+    "item1stats item2stats item3stats item4stats ability"
+    "talent1 abilities impweapon awakening bonuses"
+    ;
+}
+
+
+
+@media only screen and (max-width: 1700px) {
+
+  
+  .stats {
+  width: 600px;
+  grid-template-columns: 100px 100px 100px 100px 200px;
+  grid-template-rows: 100px 60px 100px 100px 100px;
+}
+}
+
+
+@media only screen and (max-width: 1500px) {
+
+  
+  .stats {
+    width: 750px;
+    grid-template-columns: 125px 125px 125px 125px 250px;
+    grid-template-rows: 125px 75px 125px 125px 125px;
+  }
+}
+
+
+@media only screen and (max-width: 860px) {
+
+  
+  .stats {
+  width: 600px;
+  grid-template-columns: 100px 100px 100px 100px 200px;
+  grid-template-rows: 100px 60px 100px 100px 100px;
+}
+}
+
+
+@media only screen and (max-width: 740px) {
+
+  
+  .text{font-size: 1.1em}
+  .stats-text{font-size: 2.7vw;}
+  .stats {
+    width: 540px;
+    grid-template-columns: 90px 90px 90px 90px 180px;
+    grid-template-rows: 90px 54px 90px 90px 90px;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  
+  
+  .stats {
+    width: 480px;
+    grid-template-columns: 80px 80px 80px 80px 160px;
+    grid-template-rows: 80px 48px 80px 80px 80px;
+  }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+  
+  
+  .text{font-size: 0.9em}
+  .stats {
+    width: 390px;
+    grid-template-columns: 65px 65px 65px 65px 130px;
+    grid-template-rows: 65px 39px 65px 65px 65px;
+  }
+}
+
+//changed from 380 to 400
+@media only screen and (max-width: 400px) {
+
+  .stars-picture{margin-bottom: 4%;}
+  .inner-stars-picture{margin-bottom: 8%;}
+  .text{font-size: 0.7em}
+  .stats {
+  width: 300px;
+  grid-template-columns: 50px 50px 50px 50px 100px;
+  grid-template-rows: 50px 30px 50px 50px 50px;
+}
+}
+
+.character {
+  grid-area: character;
+  justify-self: stretch;
+  padding:  0;
+ // border: 1px solid #282b2c;
+}
+
+.talents {
+  grid-area: talents;
+  justify-self: stretch;
+  margin-top: 3px;
+  //box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); //Set to appear on hover
+}
+
+
+.impweapon {
+  grid-area: impweapon;
+  justify-self: stretch; 
+  padding-top: 100%;
+  background-image: url("https://i.imgur.com/SezRkiJ.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  //box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); //Set to appear on hover
+}
+
+.item-one {
+  grid-area: item1;
+  justify-self: stretch;
+ // border: 1px solid #282b2c;
+  //box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); //Set to appear on hover
+}
+
+.item-two {
+  grid-area: item2;
+  justify-self: stretch;
+ // border: 1px solid #282b2c;
+  //box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); //Set to appear on hover
+}
+
+.item-three {
+  grid-area: item3;
+  justify-self: stretch;
+ // border: 1px solid #282b2c;
+  //box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); //Set to appear on hover
+}
+
+.item-four {
+  grid-area: item4;
+  justify-self: stretch;
+  //border: 1px solid #282b2c;
+  //box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); //Set to appear on hover
+}
+
+.rarity {
+  border-radius: 5px;
+  grid-area: rarity;
+  justify-self: stretch;
+  //width: 100px;
+  //height: 100px;
+  //margin: auto 0;
+  //padding: 33% 0;
+  //border: 1px solid #282b2c;
+}
+
+.level {
+  grid-area: level;
+  justify-self: stretch;
+  //padding: 25% 0;
+  //border: 1px solid #282b2c;
+  background-image: url(https://i.imgur.com/cHgyHMa.png);
+  background-size: cover;
+}
+
+.level:hover{
+  background-color: #e6d7d765;
+}
+
+.talent-one {
+  grid-area: talent1;
+  justify-self: stretch;
+  padding-top: 100%;
+  background-image: url("https://i.imgur.com/TSEer81.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  //border: 1px solid #282b2c;
+}
+
+.abilities {
+  grid-area: abilities;
+  justify-self: stretch;
+  padding-top: 100%;
+  background-image: url("https://i.imgur.com/9C6XnKf.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  //border: 1px solid #282b2c;
+}
+
+.talent-three {
+  grid-area: talent3;
+  justify-self: stretch;
+  padding: 33% 0;
+  //border: 1px solid #282b2c;
+}
+
+.awakening {
+  grid-area: awakening;
+  justify-self: stretch;
+  //padding-top: 100%;
+  background-image: url("https://i.imgur.com/OTWqStd.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  //border: 1px solid #282b2c; 
+  height: 100%;
+  width: 100%;
+}
+
+.awakening-inner{
+  display: none;
+  height: 100%;
+  width: 100%;
+  font-size: 140%;
+  line-height: 120px;
+}
+
+.awakening:hover .awakening-inner{
+display: block;
+}
+
+.awakening:hover{
+  background-size: 0% auto;
+}
+
+.item1stats {
+  grid-area: item1stats;
+  justify-self: stretch;
+  //padding: 33% 0;
+  //border: 1px solid #282b2c;
+}
+
+.item2stats {
+  grid-area: item2stats;
+  justify-self: stretch;
+  //padding: 33% 0;
+ // border: 1px solid #282b2c;
+}
+
+.item3stats {
+  grid-area: item3stats;
+  justify-self: stretch;
+  //padding: 33% 0;
+  //border: 1px solid #282b2c;
+}
+
+.item4stats {
+  grid-area: item4stats;
+  justify-self: stretch;
+  //padding: 33% 0;
+  //border: 1px solid #282b2c;
+}
+
+.atkability {
+  grid-area: atkability;
+  justify-self: stretch;
+  padding: 33% 0;
+  border: 1px solid #282b2c;
+}
+
+.stars {
+  grid-area: stars;
+  justify-self: stretch;
+  //padding: 5% 0;
+ // border: 1px solid #282b2c;
+}
+
+.attack {
+  grid-area: attack;
+  justify-self: stretch;
+  //margin: auto 5%;
+  //border: 1px solid #282b2c;
+  text-align: left;
+}
+.hp {
+  grid-area: hp;
+  justify-self: stretch;
+  margin: auto 5%;
+  //border: 1px solid #282b2c;
+  text-align: left;
+}
+.ability {
+  grid-area: ability;
+  justify-self: stretch;
+  //margin: 0 auto;
+}
+.bonuses {
+  grid-area: bonuses;
+  justify-self: stretch;
+  padding: 12% 0;
+  //border: 1px solid #282b2c;
+  text-align: left;
+}
+
+
+/*
+
+* {box-sizing: border-box;}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+.stats {
+  width: 350px;
+  height: 300px;
+  border: 5px solid rgb(111,41,97);
+  border-radius: .5em;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 5px;
+  align-content: space-between;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.stats > div {
+  padding: 10px;
+  background-color: rgba(111,41,97,.3);
+  border: 2px solid rgba(111,41,97,.5);
+}
+*/
+
+/* Style The Dropdown Button */
+.dropbtn {
+  //background-color: #4CAF50;
+  //padding: 16px;
+  //font-size: 16px;
+  //border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightgray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: yellow}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+
+/////////////@extend
+
+input[type=text], select {
+  font-family: 'Teko', sans-serif;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}  
+
+input[type=number], select {
+  font-family: 'Teko', sans-serif;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+
+//////////////////@extend
+.check{
+  width: 20px;
+  height: 20px;
+}
+
+/////////////////
+
+
+.talent-selection {
+  position: relative;
+  display: inline-block;
+}
+
+.talent-choices {
+  display: none;
+  position: absolute;
+  min-width: 170px;
+  width: 340px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+  background-color: #5e97aa;
+  background-image: linear-gradient(#6aa5b9, #306171);
+
+  //new for responsive
+    font-size: 100%;
+    width: 272%;
+}
+
+.talent-choices a {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+  white-space: nowrap;
+
+  //new for flex
+  
+  padding: 6px 12px;
+  width: 145px;
+  display: inline-block;
+
+  //new for responsive
+  padding: 1.18% 3.54%;
+  width: 42.65%;
+  font-size: 80%;
+}
+
+
+.talent-selection:hover  {
+  background-color: #e6d7d765;
+}
+
+.talent-choices a:hover {background-color: #386777}
+
+
+.talent-selection:hover .talent-choices {
+  display: block;
+}
+
+
+.talent-input{
+  font-size: 30px;
+  height: 35px !important;
+  width: 35% !important;
+  float: right;
+  //new for responsive
+  
+  font-size: 120%;
+  height: 1em !important; 
+  width: 25% !important;
+}
+
+
+.talent-stats-text{
+  font-size: 1.25em;
+  line-height: 1.16em;
+  //text-align: left;
+}
+
+
+////////////////////@extend
+
+
+.rarity-name{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}
+
+.rarity-selection {
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 1px 1px 3px 0px rgb(0, 0, 0);
+}
+
+.rarity-choices {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+  background-color: #5e97aa;
+  background-image: linear-gradient(#6aa5b9, #306171);
+
+
+  //below is new stuff for flex menu
+  width: 200px;
+  
+  line-height: 0;
+}
+
+
+.rarity-choices a {
+  color: black;
+  padding: 12px 10px;
+  text-decoration: none;
+  display: block;
+  //border-bottom: 2px black;
+  //border-bottom-style: inset;
+  white-space: nowrap;
+
+  //below is new stuff for flex menu
+  box-shadow: inset -1px -1px 4px 0px black;
+  display: inline-block;
+  width: 80px;
+}
+
+.rarity-selection:hover  {
+  background-color: #e6d7d765;
+}
+
+.rarity-choices a:hover {background-color: #386777}
+
+
+.rarity-selection:hover .rarity-choices {
+  display: block;
+}
+
+.rarity-input{
+  width: 25%;
+}
+
+
+//////////////
+////////////////////@extend
+
+
+.item-name{
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}
+
+.item-selection {
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 1px 1px 3px 0px rgb(0, 0, 0);
+}
+
+.item-choices {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+  background-color: #5e97aa;
+  background-image: linear-gradient(#6aa5b9, #306171);
+
+
+  //below is new stuff for flex menu
+  width: 300px;
+  
+  line-height: 0;
+
+  //new for responsive
+  width: 240%;
+  //padding: 4% 3.3%;
+}
+
+
+.item-choices a {
+  color: black;
+  padding: 12px 10px;
+  text-decoration: none;
+  display: block;
+  //border-bottom: 2px black;
+  //border-bottom-style: inset;
+  white-space: nowrap;
+
+  //below is new stuff for flex menu
+  box-shadow: inset -1px -1px 4px 0px black;
+  display: inline-block;
+  width: 80px;
+
+  
+  //new for responsive
+  width: 26.67%;
+  padding: 4% 3.3%;
+}
+
+.item-selection:hover  {
+  background-color: #e6d7d765;
+}
+
+.item-choices a:hover {background-color: #386777}
+
+
+.item-selection:hover .item-choices {
+  display: block;
+}
+
+.item-input{
+  width: 25%;
+}
+
+
+//////////////
+
+
+.item-stats-text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.item-stats-selection {
+  position: relative;
+  display: inline-block;
+}
+.item-stats-choices {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  //min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+  background-color: #5e97aa;
+  background-image: linear-gradient(#6aa5b9, #306171);
+
+  //new for flex 
+    width: 320px;
+
+    //new for responsive
+    //got rid of min-width
+    width: 256%
+}
+
+.item-stats-choices a {
+  color: black;
+  padding: 8px 8px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px black;
+  border-bottom-style: inset;
+  white-space: nowrap;
+
+  //new for flex
+  box-shadow: inset 0px 0px 2px 0px black;
+  width: 144px;
+  display: inline-block;
+
+  //new for responsive
+  padding: 2.5% 2.5%;
+  width: 45%;
+}
+
+.item-stats-selection:hover  {
+  background-color: #e6d7d765;
+}
+
+.item-stats-choices a:hover {box-shadow: inset 0px 0px 8px 0px black;}
+
+
+.item-stats-selection:hover .item-stats-choices {
+  display: block;
+}
+
+.item-stats-input{
+  font-size: 180%;
+  background-color: transparent;
+  border: none;
+  /* margin-top: 10px; */
+  vertical-align: middle;
+  width: 100%!important;
+  height: 100% !important;
+  padding-left: 8%;
+}
+
+//////////////////////
+
+
+.weapon-input{
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+  /* margin-top: 10px; */
+  vertical-align: middle;
+  width: 100px!important;
+  height: 100px !important;
+}
+
+///////////@extend
+//////////////
+
+
+.stats-selection {
+  position: relative;
+  display: block;
+}
+.stats-choices {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  //min-width: 144px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+  background-color: #5e97aa;
+  background-image: linear-gradient(#6aa5b9, #306171);
+
+  //new for flex
+  
+  right: -10px;
+  width: 162px; 
+
+  
+  //new for responsive
+  //got rid of min-widthe
+  font-size: 100%;
+  right: 26%;
+  width: 80%;
+
+}
+
+.stats-choices a {
+  color: black;
+  padding: 12px 8px;
+  text-decoration: none;
+  display: block;
+  white-space: nowrap;
+
+  //new for flex
+  
+  width: 65px;
+  display: inline-block;
+
+  //new for responsive
+  padding: 14.83% 11.13%;
+  width: 80.29%;
+  background-color: #5e97aa;
+  background-image: linear-gradient(#6aa5b9, #306171);
+
+    
+}
+
+.stats-selection:hover  {
+}
+
+.stats-choices a:hover {}
+
+
+.stats-selection:hover .stats-choices {
+  display: block;
+}
+
+.stats-input{
+  width: 25%;
+}
+
+.stats-selection:hover{
+  display: block;
+}
+
+
+//////////////
+/////////////////
+
+
+.ability-selection {
+  position: relative;
+  display: inline-block;
+}
+
+.ability-choices {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  //min-width: 190px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+  background-color: #5e97aa;
+  background-image: linear-gradient(#6aa5b9, #306171);
+
+  //new for responsive
+  width: 190%;
+
+}
+
+.ability-choices a {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+
+  white-space: nowrap;
+  //new for responsive
+  padding: 6.32% 6.32%;
+}
+
+.ability-selection:hover  {
+  background-color: #e6d7d765;
+}
+
+.ability-choices a:hover {background-color: #386777}
+
+
+.ability-selection:hover .ability-choices {
+  display: block;
+}
+
+.ability-input{
+  font-size: 30px;
+  height: 35px !important;
+  width: 35% !important;
+  float: right;
+  //new for responsive
+  font-size: 120%;
+  height: 1em !important; 
+  width: 25% !important;
+}
+
+
+.ability-stats-text{
+  font-size: 1.25em;
+  line-height: 1.16em;
+  text-align: center;
+  //new for responsive
+  line-height: 120%;
+  font-size: 125%;
+}
+
+///////////////////////
+
+.character-picture{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center top;
+  box-shadow: inset 0 0 6px 0px rgb(0, 0, 0);
+}
+
+
+.item-picture{
+  border-radius: 4px;
+  box-shadow: 5px 5px #260e4956;
+  width: 70%;
+  height: 70%;
+  background-size: cover;
+  margin: 12px auto 0px auto;
+  background-position: center top;
+}
+
+.item-menu-picture{
+  border-radius: 4px;
+  box-shadow: 5px 5px #260e4956;
+  width: 60px;
+  height: 60px;
+  margin-left: 8px;
+  margin-right: 10px;
+  background-size: cover;
+
+  
+  //new for responsive
+  
+  width: 100%;
+  height: 100%;
+  padding-bottom: 75%;
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+
+.rarity-menu-picture{
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background-size: contain;
+
+}
+
+.item-menu-text{
+  padding-top: 15px;
+  display: block;
+  padding-left: 60px;
+  font-size: 1vw;
+
+  //new for responsive
+  padding-top: 18.76%;
+
+
+}
+
+
+.rarity-picture{
+  border-radius: 5px;
+  box-shadow: inset 0 0 4px 0px rgb(0, 0, 0);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.item-stats-picture{
+  width: 21.7px;
+  height: 12.6px;
+  margin-top: 8%;
+  margin-left: 1.2%;
+  background-size: cover;
+  display: inline-block;
+
+  //new for responsive
+  width: 15%;
+  height: .6057em;
+}
+
+
+.sub-stars{
+  /* border-radius: 5px; */
+  box-shadow: inset 0 0 4px 0px rgb(0, 0, 0);
+  background-color: rgba(66, 144, 171, 0.76);
+  border-radius: 5px;
+  height: 40%;
+  /* margin-left: 3px; */
+  //margin-right: 3px;
+  margin-top: 2%;
+  
+}
+
+.stars-picture{
+  width: 15%;
+  height: 85%;
+  margin-top: 1.2%;
+  margin-left: 1.2%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.inner-stars-picture{
+  width: 15%;
+  height: 85%;
+  margin-top: 1%;
+  margin-left: 1.2%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.stars-inner{
+  /* border-radius: 5px; */
+  box-shadow: inset 0 0 4px 0px rgb(0, 0, 0);
+  background-color: rgba(66, 144, 171, 0.76);
+  border-radius: 5px;
+  height: 50%;
+  margin-top: 0.5%;
+  
+}
+
+///////////////////////////
+
+.character-selection{
+  padding-right: 5px;
+  //background-image: url("https://vignette.wikia.nocookie.net/crossingvoid-global/images/2/24/CM-Kirito.png/revision/latest/scale-to-width-down/240?cb=20191124070206");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:  cover;
+  //background-size:  100% 500px;
+}
+
+.character-selection{
+  
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+
+.character-selection-dropdown
+{
+  display: none;
+  position: absolute;
+  background-color: lightgray;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+  text-align: left;
+  
+  
+  line-height: 0;
+  width: 525px; //Added for creating columns  450 for 2/675 for 3
+  height: 0px; //Added for creating columns
+  //alter position by subtracting 30 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  //padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+
+  
+  height: 20px;
+  box-shadow: inset -1px -1px 4px 0px black;
+  //box-shadow: 0px 0px 4px 1px black;
+  padding: 10px 13px 10px 12px; //added
+  width: 150px;  //Added for creating columns //Added for creating columns 200 was okay, 150 seems to be the minimum -> change width to 525
+  display: inline-block;  //Added for creating columns
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover { box-shadow: inset -1px -1px 9px 0px black;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+//////////@extend
+.level-input{
+  font-size: 180%;
+  background-color: transparent;
+  border: none; 
+  width: 100%;
+  height: 100%;
+  padding-top: 35%;
+}
+
+
+
+/////////@extend
+
+
+
+/////////////////
+
+
+.impweapon-selection {
+  position: relative;
+  display: inline-block;
+}
+
+.impweapon-choices {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+  background-color: #5e97aa;
+  background-image: linear-gradient(#6aa5b9, #306171);
+  //new for responsive
+  width: 270%;
+}
+
+.impweapon-choices a {
+  color: black;
+  height: 30px;
+  margin-top: 3px;
+  padding: 16px 0px;
+  text-decoration: none;
+  display: block;
+  white-space: nowrap;
+
+  //new for flex
+  
+  width: 50px;
+  display: inline-block;
+  margin-right: 5px;
+
+  //new for responsive
+  height: 1.443em;
+  padding: 9.7% 0px;
+  width: 30.31%;
+  margin-right: 3.025%;
+
+}
+
+.impweapon-selection:hover  {
+  background-color: #e6d7d765;
+}
+
+.impweapon-choices a:hover {background-color: #386777}
+
+
+.impweapon-selection:hover .impweapon-choices {
+  display: block;
+}
+
+.impweapon-input{
+  font-size: 30px;
+  height: 35px !important;
+  width: 35% !important;
+  float: right;
+  //new for responsive
+  font-size: 120%;
+  height: 1em !important;
+  width: 40% !important;
+  margin-top: 2px;
+}
+
+
+
+.impweapon-choices-flex {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+  background-color: #5e97aa;
+
+}
+
+.impweapon-choices-flex a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+  white-space: nowrap;
+}
+
+
+.impweapon-choices-flex a:hover {background-color: #386777}
+
+.impweapon-selection:hover .impweapon-choices-flex {
+  display: block;
+}
+
+
+.impweapon-stats {
+  padding: 12px 16px;
+
+  //new for flex
+  
+  width: 200px;
+  padding: 0px 4px;
+  display: inline-block;
+  //new for responsive
+  width: 48%;
+  padding: 0px 0.96%;
+}
+
+
+.impweapon-stats-text {
+  font-size: 1.25em;
+  line-height: 1.16em;
+
+  //new for flex
+  
+  font-size: 1.25em;
+  line-height: 1.46em;
+  width: 416px;
+  //new for responsive
+  width: 100%;
+  line-height: 140%;
+  font-size: 115%;
+}
+
+.impweapon-weapon-picture{
+  background-image: url(https://vignette.wikia.nocookie.net/crossingvoid-global/images/8/89/IW-Shield_of_Xingtian.png/revision/latest/scale-to-width-down/70?cb=20200105081811);
+  background-size: 100% auto;
+  /* margin: 0 auto; */
+  background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+.dropdown-content a {
+	width:100px;
+}
+
+.character-selection-dropdown {
+	width: 375px;
+}
+  
+
+}
+
+
+@media only screen and (max-width: 420px) {
+  
+  .dropdown-content a {
+    width:75px;
+  }
+  
+  .character-selection-dropdown {
+    width: 300px;
+  }
+    
+  
+  }
+  

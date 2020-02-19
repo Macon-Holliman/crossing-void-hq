@@ -1,0 +1,66 @@
+.Toolbar {
+  position: absolute;
+  width: 100%;
+  background-color: #ad3a4391;
+  padding-bottom: 4px;
+  //border-bottom: #dddddd solid 1px;
+  box-shadow: 0px 0px 4px black;
+}
+
+.page-wrap {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1600px;
+}
+
+.logo{
+  width: 60px;
+  height: 60px;
+  margin: 0.9375em 0 0.9375em 0;
+  float: left;
+}
+
+.main-nav{
+  float: right;
+  display: block;
+}
+
+.main-nav a{
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 0.875em;
+  padding: .8em 2em;
+  display: block;
+  font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+
+.main-nav li{
+  float: left;
+}
+
+.main-nav ul{
+  list-style: none;
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Animate {
+    animation: down-slide;
+    animation-duration: 1s;
+  }
+}
+
+
+@keyframes down-slide {
+
+  from {
+    top: -83px;
+  }
+
+  to {
+    top: 0px;
+  }
+
+}
+

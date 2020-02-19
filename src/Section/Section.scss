@@ -1,0 +1,21 @@
+
+
+.info{
+  background-position: center center;
+  background-size: cover;
+  padding: 160px 0 200px;
+  position: relative;
+  z-index: 2;
+  background-color: #ffeae7;
+}
+
+.info-inner{
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1280px;
+
+}
